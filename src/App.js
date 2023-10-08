@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
-// import dotenv from 'dotenv'
 import { TextField, Button, Typography, Box } from '@mui/material'
 import './App.css'
 
-// dotenv.config()
-const apiKey = '54aeb2509b680e9b0d6c2b242e1ff9a4' // Get your API key from OpenWeatherMap
+
+const apiKey = 'enter your api_key' // Get your API key from OpenWeatherMap
 
 function App() {
   const [city, setCity] = useState('')
